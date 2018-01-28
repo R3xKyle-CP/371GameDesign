@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour {
 
     }
 
-    void OnCollisionEnter2D(Collision col)
+    void OnCollisionEnter2D(Collision2D col)
     {
         // This requires our objects that are on the ground to have a 'Ground' tag
         if (col.gameObject.tag == "Ground")
