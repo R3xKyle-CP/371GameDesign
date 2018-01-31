@@ -5103,6 +5103,7 @@ GameObject:
   - component: {fileID: 350056799}
   - component: {fileID: 350056798}
   - component: {fileID: 350056797}
+  - component: {fileID: 350056800}
   m_Layer: 0
   m_Name: Water (2)
   m_TagString: Water
@@ -5203,6 +5204,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &350056800
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 350056795}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &358095820
 GameObject:
   m_ObjectHideFlags: 0
@@ -11480,6 +11501,7 @@ GameObject:
   - component: {fileID: 741157257}
   - component: {fileID: 741157256}
   - component: {fileID: 741157255}
+  - component: {fileID: 741157258}
   m_Layer: 0
   m_Name: Water (4)
   m_TagString: Water
@@ -11580,6 +11602,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &741157258
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 741157253}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &749812785
 GameObject:
   m_ObjectHideFlags: 0
@@ -12184,7 +12226,7 @@ GameObject:
   - component: {fileID: 809792376}
   m_Layer: 0
   m_Name: Waters
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12196,7 +12238,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 809792375}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.4, y: -5.1, z: 0.064678684}
+  m_LocalPosition: {x: -7.4, y: -3.29, z: 0.064678684}
   m_LocalScale: {x: 1, y: 4.45, z: 1}
   m_Children:
   - {fileID: 1937126546}
@@ -13712,6 +13754,7 @@ GameObject:
   - component: {fileID: 919753427}
   - component: {fileID: 919753426}
   - component: {fileID: 919753425}
+  - component: {fileID: 919753428}
   m_Layer: 0
   m_Name: Water (1)
   m_TagString: Water
@@ -13812,6 +13855,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &919753428
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 919753423}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &920257813
 GameObject:
   m_ObjectHideFlags: 0
@@ -15308,6 +15371,7 @@ GameObject:
   - component: {fileID: 1071720640}
   - component: {fileID: 1071720639}
   - component: {fileID: 1071720638}
+  - component: {fileID: 1071720641}
   m_Layer: 0
   m_Name: Water (3)
   m_TagString: Water
@@ -15408,6 +15472,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1071720641
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1071720636}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1075599357
 GameObject:
   m_ObjectHideFlags: 0
@@ -17559,6 +17643,7 @@ GameObject:
   - component: {fileID: 1250759687}
   - component: {fileID: 1250759686}
   - component: {fileID: 1250759685}
+  - component: {fileID: 1250759688}
   m_Layer: 0
   m_Name: Water (5)
   m_TagString: Water
@@ -17659,6 +17744,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1250759688
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1250759683}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1250808653
 GameObject:
   m_ObjectHideFlags: 0
@@ -23808,6 +23913,7 @@ GameObject:
   - component: {fileID: 1708771782}
   - component: {fileID: 1708771781}
   - component: {fileID: 1708771780}
+  - component: {fileID: 1708771783}
   m_Layer: 0
   m_Name: Water (6)
   m_TagString: Water
@@ -23908,6 +24014,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1708771783
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1708771778}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1719095685
 GameObject:
   m_ObjectHideFlags: 0
@@ -26988,6 +27114,7 @@ GameObject:
   - component: {fileID: 1937126549}
   - component: {fileID: 1937126548}
   - component: {fileID: 1937126547}
+  - component: {fileID: 1937126550}
   m_Layer: 0
   m_Name: Water
   m_TagString: Water
@@ -27088,6 +27215,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1937126550
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937126545}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1942083890
 GameObject:
   m_ObjectHideFlags: 0
@@ -29108,7 +29255,7 @@ GameObject:
   - component: {fileID: 2090031784}
   - component: {fileID: 2090031783}
   m_Layer: 5
-  m_Name: Text
+  m_Name: GameOverText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29130,7 +29277,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 200, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2090031783
 MonoBehaviour:
@@ -29153,10 +29300,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -29164,9 +29311,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Game Over!!!''
-
-'
+  m_Text: Game Over!!
 --- !u!222 &2090031784
 CanvasRenderer:
   m_ObjectHideFlags: 0
