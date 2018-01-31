@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
+	public bool alive = true;
     public float maxSpeed = 3;
     private float speed = 50f;
     private float jumpingSpeed = 300f;
@@ -11,6 +12,7 @@ public class PlayerController : MonoBehaviour {
     private Rigidbody2D rb2d;
     //private bool grounded;
     private Animator anim;
+	public GameObject gameOverText;
 
 	void Start () {
         rb2d = GetComponent<Rigidbody2D>();
@@ -80,7 +82,7 @@ public class PlayerController : MonoBehaviour {
         }
         */
     }
-    /*
+    
     void OnCollisionEnter2D(Collision2D col)
     {
         // This requires our objects that are on the ground to have a 'Ground' tag
@@ -89,5 +91,15 @@ public class PlayerController : MonoBehaviour {
             grounded = true;
         }
     }
-    */
+
+	void OnTriggerEnter2D(Collider2D col)
+	{
+		// This requires our objects that are on the ground to have a 'Ground' tag
+		if (col.gameObject.tag == "Water")
+		{
+			alive = false;
+			gameOverText.SetActive (true);
+		}
+	}
+    
 }
