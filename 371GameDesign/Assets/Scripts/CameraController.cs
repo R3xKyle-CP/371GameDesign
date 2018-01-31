@@ -8,13 +8,42 @@ public class CameraController : MonoBehaviour {
 
     private Vector3 offset;
 
+    private Vector2 velocity;
+
+    public float smoothTimeY;
+    public float smoothTimeX;
+
+    public bool bounds;
+
+    public Vector3 minCameraPos;
+    public Vector3 maxCameraPos;
+
+
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         offset = transform.position - player.transform.position;
     }
 
-    void LateUpdate()
+    void FixedUpdate()
     {
-        transform.position = player.transform.position + offset;
+        float posX = Mathf.SmoothDamp(transform.position.x, player.transform.position.x, ref velocity.x, smoothTimeX);
+        float posY = Mathf.SmoothDamp(transform.position.y, player.transform.position.y, ref velocity.y, smoothTimeY);
+
+        transform.position = new Vector3(posX, posY, transform.position.z);
+
+        if (bounds)
+        {
+            transform.position = new Vector3(Mathf.Clamp(transform.position.x, minCameraPos.x, maxCameraPos.x),
+                Mathf.Clamp(transform.position.y, minCameraPos.y, maxCameraPos.y),
+                Mathf.Clamp(transform.position.z, minCameraPos.z, maxCameraPos.z));
+        }
     }
+
+   /* void LateUpdate()
+    {
+        float targetX = Mathf.Max(levelMinX, Mathf.Min(levelMaxX, cameraTarget.transform.position.x));
+        float x = Mathf.SmoothDamp(thisTransform.position.x, targetX, ref velocity.x, smoothTime);
+        transform.position = player.transform.position + offset;
+    }*/
 }
